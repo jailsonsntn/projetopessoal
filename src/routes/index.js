@@ -13,7 +13,7 @@ export default function Routes() {
       <Redirect from="/home" to="/" />
 
       <Route path="/" exact component={Home} />
-      <Route path="/services" component={Services}/>
+      <Route path="/products" component={Services}/>
       <Route path="/contact" component={Contato}/>
     </Switch>
   );

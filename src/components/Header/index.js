@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Home, Services, Contact } from '../../styles/styleHeader';
 
+
 export default function Header() {
   return (
     <Container>
@@ -12,7 +13,7 @@ export default function Header() {
       </Home>
       <Services>
         <nav>
-          <Link to="/services">SERVIÇOS</Link>
+          <Link to="/products">PRODUTOS</Link>
         </nav>
       </Services>
       <Contact>

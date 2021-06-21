@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 //style off page "home"
 #home{
 
-.logo {
+img {
   width: 50%;
   height: 50%;
   padding-top: 0px;
@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
 }
 
 h1{
+  text-align: center;
   width: 50%;
   height: 50%;
   margin: 23% 0px 0px 0px;
@@ -39,6 +40,17 @@ h1{
 }
 .logo, h1 {
   float: left;
+}
+
+}
+#icon {
+  text-align: center;
+  font-size: 100px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  color: #f18800;
 }
 
 `

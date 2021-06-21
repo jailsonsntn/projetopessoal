@@ -13,17 +13,34 @@ outline: 0;
 box-sizing: border-box;
 }
 
-}
+
 *:focus {
 outline: 0;
 }
+
 html, body, #root{
   height: 100%;
-  background: rgb(0,0,0);
+  background-color: #000;
+  background-size: cover;
+}
 
 body, input, button {
   -webkit-font-smoothing: antialiased;
 }
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f18000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 1px solid #f18800;
+}
+
 a {
 text-decoration: none;
 }
@@ -36,16 +53,5 @@ button {
 cursor: pointer;
 }
 
-//style header
 
-#icon {
-  font-size: 100px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  color: #f18800;
-}
-
-
-`;
+`
