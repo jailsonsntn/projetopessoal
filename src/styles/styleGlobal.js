@@ -53,5 +53,14 @@ button {
 cursor: pointer;
 }
 
-
+footer {
+  color: #000;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  &:hover{
+    color: #f18000;
+  }
+}
 `
